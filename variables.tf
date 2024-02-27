@@ -51,6 +51,12 @@ variable "signalfx_table_charts" {
   default     = {}
 }
 
+variable "signalfx_text_charts" {
+  type        = any
+  description = "Map of text charts to create. Key is an id, value is chart config."
+  default     = {}
+}
+
 variable "signalfx_single_value_charts" {
   type        = any
   description = "Map of single value charts to create. Key is an id, value is chart config."

@@ -5,8 +5,8 @@ locals {
 }
 
 module "converter" {
-  # source  = "synvert-datadrivers/dashboard-converter/signalfx"
-  source = "/Users/stevie/Documents/Projects/synvert-datadrivers/git/terraform-signalfx-dashboard-converter"
+  source = "synvert-datadrivers/dashboard-converter/signalfx"
+
   for_each = local.dashboards
 
   dashboard_file_path = each.value
@@ -17,17 +17,14 @@ module "dashboard" {
   for_each = local.dashboards
 
   dashboard_name               = each.key
-  dashboard_group_id           = null
+  dashboard_group_id           = "dummy"
   dashboard_parameters         = module.converter[each.key].signalfx_dashboard
   signalfx_time_charts         = module.converter[each.key].signalfx_time_charts
   signalfx_single_value_charts = module.converter[each.key].signalfx_single_value_charts
   signalfx_list_charts         = module.converter[each.key].signalfx_list_charts
   signalfx_log_views           = module.converter[each.key].signalfx_log_views
   signalfx_table_charts        = module.converter[each.key].signalfx_table_charts
-}
-
-output "converter" {
-  value = module.converter
+  signalfx_text_charts         = module.converter[each.key].signalfx_text_charts
 }
 
 output "dashboard" {
