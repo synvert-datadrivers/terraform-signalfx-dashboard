@@ -5,7 +5,8 @@ locals {
 }
 
 module "converter" {
-  source = "synvert-datadrivers/dashboard-converter/signalfx"
+  source  = "synvert-datadrivers/dashboard-converter/signalfx"
+  version = "~> 1.1"
 
   for_each = local.dashboards
 
@@ -29,4 +30,8 @@ module "dashboard" {
 
 output "dashboard" {
   value = module.dashboard
+}
+
+terraform {
+  required_version = ">= 1.5"
 }

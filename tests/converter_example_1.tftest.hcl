@@ -57,4 +57,3 @@ run "validate_output_dashboard" {
     error_message = "charts id does not match expected output"
   }
 }
-
