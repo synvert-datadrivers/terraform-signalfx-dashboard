@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/synvert-datadrivers/terraform-signalfx-dashboard/compare/v1.0.0...v1.0.1) (2024-02-27)
+
+
+### Bug Fixes
+
+* **deps:** Bump splunk-terraform/signalfx from 9.0.1 to 9.1.1 ([#1](https://github.com/synvert-datadrivers/terraform-signalfx-dashboard/issues/1)) ([6475d08](https://github.com/synvert-datadrivers/terraform-signalfx-dashboard/commit/6475d08b7b5dc2014429aa079c5f747c85813121))
+
 # 1.0.0 (2024-02-27)
 
 
