@@ -9,8 +9,6 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    labels:
-      - "gh-actions"
     commit-message:
       prefix: "chore"
       include: "scope"
@@ -26,8 +24,6 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    labels:
-      - "terraform"
     commit-message:
       prefix: "chore"
       include: "scope"
