@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/synvert-datadrivers/terraform-signalfx-dashboard/compare/v1.0.2...v1.0.3) (2024-02-28)
+
+
+### Bug Fixes
+
+* trigger major release tag ([9b5d2dc](https://github.com/synvert-datadrivers/terraform-signalfx-dashboard/commit/9b5d2dc7f5b30d4f5d3bb5e42444f528af7cbff4))
+
 ## [1.0.2](https://github.com/synvert-datadrivers/terraform-signalfx-dashboard/compare/v1.0.1...v1.0.2) (2024-02-27)
 
 
