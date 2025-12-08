@@ -14,8 +14,7 @@ run "setup" {
   }
 }
 
-provider "signalfx" {
-  auth_token = "dummy"
+mock_provider "signalfx" {
 }
 
 run "validate_output_dashboard" {

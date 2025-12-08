@@ -60,6 +60,6 @@ jobs:
           terraform plan -out terraform.tfplan
       - name: add PR comment with plan results
         if: ${{ github.event_name == 'pull_request' }}
-        uses: atadrivers/terragrunt-action/terraform-pr-commenter@v4
+        uses: datadrivers/terragrunt-action/terraform-pr-commenter@v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
