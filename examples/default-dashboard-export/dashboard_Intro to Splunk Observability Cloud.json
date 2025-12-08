@@ -77,7 +77,7 @@
         "packageSpecifications": "",
         "programText": "A = data('demo.trans.count',rollup='rate').sum(by=['demo_host', 'demo_datacenter']).mean(over='15s').publish(label='A')",
         "relatedDetectorIds": [],
-        "tags": null
+        "tags": []
       }
     },
     {
@@ -99,7 +99,7 @@
         "packageSpecifications": "",
         "programText": "",
         "relatedDetectorIds": [],
-        "tags": null
+        "tags": []
       }
     },
     {
@@ -189,7 +189,7 @@
         "packageSpecifications": "",
         "programText": "A = data('demo.trans.latency').percentile(pct=95).publish(label='A')\nB = data('demo.trans.latency').percentile(pct=95).timeshift('3m').publish(label='B')",
         "relatedDetectorIds": [],
-        "tags": null
+        "tags": []
       }
     },
     {
@@ -211,7 +211,7 @@
         "packageSpecifications": "",
         "programText": "",
         "relatedDetectorIds": [],
-        "tags": null
+        "tags": []
       }
     }
   ],
@@ -269,9 +269,9 @@
         }
       ],
       "filters": {
-        "sources": null,
+        "sources": [],
         "time": null,
-        "variables": null
+        "variables": []
       },
       "groupId": "EpSGwk4AIAA",
       "groupName": "Sample data",
@@ -283,10 +283,10 @@
       "name": "Intro to Splunk Observability Cloud",
       "permissions": null,
       "selectedEventOverlays": null,
-      "tags": null
+      "tags": []
     }
   },
-  "hashCode": -1985826296,
+  "hashCode": -2112446707,
   "id": "EpSGyqBAAAE",
   "modelVersion": 1,
   "packageType": "DASHBOARD"
