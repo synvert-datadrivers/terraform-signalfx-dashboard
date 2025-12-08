@@ -21,13 +21,13 @@ Examples can be found in the [examples](./examples) directory.
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5 |
-| <a name="requirement_signalfx"></a> [signalfx](#requirement\_signalfx) | ~> 9.0.0 |
+| <a name="requirement_signalfx"></a> [signalfx](#requirement\_signalfx) | ~> 9.1 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_signalfx"></a> [signalfx](#provider\_signalfx) | ~> 9.0.0 |
+| <a name="provider_signalfx"></a> [signalfx](#provider\_signalfx) | ~> 9.1 |
 
 ## Modules
 
