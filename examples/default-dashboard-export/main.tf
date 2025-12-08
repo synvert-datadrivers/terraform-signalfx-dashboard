@@ -34,4 +34,15 @@ output "dashboard" {
 
 terraform {
   required_version = ">= 1.5"
+  required_providers {
+    signalfx = {
+      source  = "splunk-terraform/signalfx"
+      version = "~> 9.1"
+    }
+  }
+}
+
+provider "signalfx" {
+  api_url    = "localhost"
+  auth_token = "dummy" # fake token for example purposes only
 }
